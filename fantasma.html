@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tecla Fantasma - Entenda o Problema</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: linear-gradient(135deg, #0f172a, #1e293b);
+        color: #f1f5f9;
+        line-height: 1.6;
+    }
+
+    header {
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    header h1 {
+        font-size: 2.8em;
+        color: #38bdf8;
+    }
+
+    header p {
+        margin-top: 15px;
+        font-size: 1.2em;
+        color: #cbd5f5;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    .card {
+        background: rgba(255,255,255,0.05);
+        padding: 30px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    h2 {
+        color: #38bdf8;
+        margin-bottom: 15px;
+    }
+
+    ul {
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    .highlight {
+        color: #facc15;
+        font-weight: bold;
+    }
+
+    .cta {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .cta button {
+        background: #38bdf8;
+        border: none;
+        padding: 15px 30px;
+        font-size: 1.1em;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .cta button:hover {
+        background: #0ea5e9;
+    }
+
+    footer {
+        text-align: center;
+        padding: 30px;
+        font-size: 0.9em;
+        color: #94a3b8;
+        
+    }
+    a {
+        color: #0863e2;
+        text-decoration: none;
+    
+    }
+    .zap {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.zap:hover {
+    transform: scale(1.1);
+
+
+}
+.mp-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #f1f5ff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1e3a8a;
+     margin-top: 10px;
+}
+
+.mp-box img {
+    width: 40px;
+}
+#rs {
+    font-size: 0.9em;
+    color: #39fd08;
+}
+.baixar {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #38bdf8;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Tecla Fantasma</h1>
+    <p>Entenda por que seu teclado digita sozinho e como isso pode afetar seu computador</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>💻 O que é Tecla Fantasma?</h2>
+        <p>
+            A chamada <span class="highlight">tecla fantasma</span> acontece quando uma tecla do teclado é ativada sem que você pressione.
+            Isso pode fazer com que o computador digite sozinho, execute comandos inesperados ou interfira diretamente no seu uso diário.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>⚠️ Como esse problema aparece?</h2>
+        <ul>
+            <li>Caracteres sendo digitados automaticamente</li>
+            <li>Teclas repetindo sem parar</li>
+            <li>Comandos sendo ativados sozinhos</li>
+            <li>Dificuldade para escrever ou jogar</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🧠 Por que isso acontece?</h2>
+        <p>
+            Esse comportamento pode estar relacionado a falhas físicas, conflitos internos do sistema ou até interferências
+            invisíveis ao usuário. Em muitos casos, o problema surge de forma inesperada e pode piorar com o tempo.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>🚨 Impacto no seu dia a dia</h2>
+        <p>
+            Uma simples tecla fantasma pode causar grandes problemas: perda de produtividade, erros ao digitar,
+            dificuldade em jogos e até execução de ações indesejadas no sistema.
+        </p>
+        <p>
+            O mais preocupante é que muitas pessoas não entendem o que está acontecendo e acabam ignorando o problema.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>💡 Existe uma forma inteligente de lidar com isso</h2>
+        <p>
+            Em vez de trocar o teclado ou lidar com frustrações constantes, existe uma alternativa prática:
+            controlar diretamente o comportamento das teclas.
+        </p>
+
+        <p class="highlight">
+            É exatamente isso que o nosso programa faz.
+        </p>
+    </div>
+
+    <div class="cta">
+        <h2>🔧 Assuma o controle do seu teclado</h2>
+        <p>Bloqueie, controle e personalize teclas com facilidade.</p>
+        <br>
+        <button><a class="baixar" href="https://mpago.la/2i8rBbF" target="_blank" title="Mega downloader" rel="noopener noreferrer">Baixar Agora <br>
+             <div class="mp-box">
+    <img src="https://logodownload.org/wp-content/uploads/2019/06/mercado-pago-logo-0.png">
+    <span>Pagamento seguro via Mercado Pago • Liberação imediata <br> Resolva sua tecla fantasma em segundos <br></span> </a>
+</div>
+  
+            </button> <br><br>
+             <p>Se tiver dúvidas ou precisar de ajuda, entre em contato conosco:</p>
+           <!-- <a href="https://wa.me/+5535933004035"  target="_blank" rel="noopener noreferrer" class="whatsapp-btn">
+            <i class="fab fa-whatsapp" width="50" height="50" bg></i> -->
+            <a href="https://wa.me/+5535933004035?text=Olá, tenho uma dúvida sobre o programa de tecla fantasma." target="_blank" rel="noopener noreferrer" class="zap">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="50" height="50">
+  <circle cx="16" cy="16" r="16" fill="#25D366"/>
+  <path fill="#fff" d="M23.5 18.5c-.4-.2-2.4-1.2-2.8-1.3-.4-.2-.7-.2-1 .2-.3.4-1.1 1.3-1.4 1.6-.3.3-.5.3-.9.1-.4-.2-1.7-.6-3.3-2-1.2-1-2-2.2-2.2-2.6-.2-.4 0-.6.2-.8.2-.2.4-.5.6-.7.2-.2.3-.4.5-.6.2-.2.1-.4 0-.6-.1-.2-1-2.3-1.4-3.1-.4-.8-.7-.7-1-.7h-.9c-.3 0-.7.1-1 .4-.3.3-1.3 1.2-1.3 2.9s1.3 3.3 1.5 3.5c.2.2 2.5 3.9 6.1 5.5.9.4 1.6.6 2.1.8.9.3 1.8.3 2.5.2.8-.1 2.4-1 2.7-2 .3-1 .3-1.9.2-2.1-.1-.2-.4-.3-.8-.5z"/>
+</svg>Falar no WhatsApp
+</a>
+
+</a>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 - Solução Inteligente para Teclas Fantasma
+</footer>
+
+</body>
+</html>
